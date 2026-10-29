@@ -1,0 +1,59 @@
+{
+ "updated": "2026-10-29",
+ "services": [
+  {
+   "name": "Netflix",
+   "pkg": "com.netflix.ninja",
+   "items": [
+    {
+     "title": "Lupin",
+     "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg"
+    },
+    {
+     "title": "The Apothecary Diaries",
+     "poster": "/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg"
+    },
+    {
+     "title": "Cyberpunk: Edgerunners",
+     "poster": "/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Prime Video",
+   "pkg": "com.amazon.amazonvideo.livingroom",
+   "items": [
+    {
+     "title": "The Terminal List",
+     "poster": "/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg"
+    },
+    {
+     "title": "Drive - The Pretenders",
+     "poster": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg"
+    },
+    {
+     "title": "Carrie",
+     "poster": "/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg"
+    }
+   ]
+  },
+  {
+   "name": "JioHotstar",
+   "pkg": "in.startv.hotstar",
+   "items": [
+    {
+     "title": "VisionQuest",
+     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
+    },
+    {
+     "title": "MobLand",
+     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
+    },
+    {
+     "title": "Tulsa King",
+     "poster": "/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
+    }
+   ]
+  }
+ ]
+}
