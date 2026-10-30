@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "services": [
   {
    "name": "Netflix",
@@ -24,16 +24,16 @@
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
     {
+     "title": "Ali G: Who Iz I?",
+     "poster": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg"
+    },
+    {
      "title": "The Terminal List",
      "poster": "/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg"
     },
     {
      "title": "Drive - The Pretenders",
      "poster": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg"
-    },
-    {
-     "title": "Carrie",
-     "poster": "/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg"
     }
    ]
   },
