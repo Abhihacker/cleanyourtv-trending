@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "services": [
   {
    "name": "Netflix",
@@ -10,8 +10,8 @@
      "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg"
     },
     {
-     "title": "The Apothecary Diaries",
-     "poster": "/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg"
+     "title": "Cyberpunk: Edgerunners",
+     "poster": "/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg"
     },
     {
      "title": "Cyberpunk: Edgerunners",
@@ -24,12 +24,12 @@
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
     {
-     "title": "Ali G: Who Iz I?",
-     "poster": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg"
-    },
-    {
      "title": "The Terminal List",
      "poster": "/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg"
+    },
+    {
+     "title": "Ali G: Who Iz I?",
+     "poster": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg"
     },
     {
      "title": "Drive - The Pretenders",
@@ -42,16 +42,16 @@
    "pkg": "in.startv.hotstar",
    "items": [
     {
+     "title": "Avatar: Seven Havens",
+     "poster": "/u62d0BPqsdv2TUDifcMmoePbHPL.jpg"
+    },
+    {
      "title": "VisionQuest",
      "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
     },
     {
-     "title": "MobLand",
-     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
-    },
-    {
-     "title": "Tulsa King",
-     "poster": "/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
+     "title": "Collision",
+     "poster": "/ue1kLkkh9AbhnEs1sfY0Jo2f6Fy.jpg"
     }
    ]
   }
