@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "services": [
   {
    "name": "Netflix",
@@ -10,12 +10,12 @@
      "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg"
     },
     {
-     "title": "Cyberpunk: Edgerunners",
-     "poster": "/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg"
+     "title": "Dead-End Job",
+     "poster": "/vrDDqk9PAkIs0PQAbW5G0yhPVS3.jpg"
     },
     {
-     "title": "Cyberpunk: Edgerunners",
-     "poster": "/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg"
+     "title": "Collision Course",
+     "poster": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg"
     }
    ]
   },
@@ -24,16 +24,16 @@
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
     {
-     "title": "The Terminal List",
-     "poster": "/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg"
+     "title": "Apocalypse Z: New World",
+     "poster": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg"
+    },
+    {
+     "title": "Dexter: Resurrection",
+     "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg"
     },
     {
      "title": "Ali G: Who Iz I?",
      "poster": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg"
-    },
-    {
-     "title": "Drive - The Pretenders",
-     "poster": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg"
     }
    ]
   },
@@ -42,16 +42,16 @@
    "pkg": "in.startv.hotstar",
    "items": [
     {
-     "title": "Avatar: Seven Havens",
-     "poster": "/u62d0BPqsdv2TUDifcMmoePbHPL.jpg"
-    },
-    {
      "title": "VisionQuest",
      "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
     },
     {
-     "title": "Collision",
-     "poster": "/ue1kLkkh9AbhnEs1sfY0Jo2f6Fy.jpg"
+     "title": "IT: Welcome to Derry",
+     "poster": "/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg"
+    },
+    {
+     "title": "MobLand",
+     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
     }
    ]
   }
