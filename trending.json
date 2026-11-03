@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "services": [
   {
    "name": "Netflix",
@@ -10,12 +10,12 @@
      "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg"
     },
     {
-     "title": "Dead-End Job",
-     "poster": "/3fm3WYMftVrcFPdGXds9DCFVCCs.jpg"
-    },
-    {
      "title": "Collision Course",
      "poster": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg"
+    },
+    {
+     "title": "Dead-End Job",
+     "poster": "/vrDDqk9PAkIs0PQAbW5G0yhPVS3.jpg"
     }
    ]
   },
@@ -25,7 +25,7 @@
    "items": [
     {
      "title": "Apocalypse Z: New World",
-     "poster": "/wgPGAKuojOd3ncsNbxMDuU4uRn0.jpg"
+     "poster": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg"
     },
     {
      "title": "Dexter: Resurrection",
@@ -42,12 +42,12 @@
    "pkg": "in.startv.hotstar",
    "items": [
     {
-     "title": "MobLand",
-     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
-    },
-    {
      "title": "VisionQuest",
      "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
+    },
+    {
+     "title": "MobLand",
+     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
     },
     {
      "title": "Obsession",
