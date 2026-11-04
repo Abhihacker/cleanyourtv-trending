@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
+     "title": "Dead-End Job",
+     "poster": "/agNYOaXhshj35EMjzVZLGRZUlx6.jpg"
+    },
+    {
      "title": "Lupin",
      "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg"
     },
     {
-     "title": "Collision Course",
-     "poster": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg"
-    },
-    {
-     "title": "Dead-End Job",
-     "poster": "/vrDDqk9PAkIs0PQAbW5G0yhPVS3.jpg"
+     "title": "Stranger Things",
+     "poster": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
     }
    ]
   },
@@ -50,8 +50,8 @@
      "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
     },
     {
-     "title": "Obsession",
-     "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg"
+     "title": "A Story of Derry",
+     "poster": "/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg"
     }
    ]
   }
