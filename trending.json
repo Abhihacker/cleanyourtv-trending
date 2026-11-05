@@ -6,16 +6,22 @@
    "pkg": "com.netflix.ninja",
    "items": [
     {
+     "title": "Black Doves",
+     "poster": "/cmef3NUA2ThG0P2o4GGgucc8Ve3.jpg",
+     "tmdb": "tv/225385",
+     "link": "https://www.netflix.com/title/81682935"
+    },
+    {
      "title": "Dead-End Job",
-     "poster": "/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg"
+     "poster": "/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg",
+     "tmdb": "tv/289517",
+     "link": "https://www.netflix.com/title/81997887"
     },
     {
-     "title": "Lupin",
-     "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg"
-    },
-    {
-     "title": "Bleach",
-     "poster": "/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg"
+     "title": "Collision Course",
+     "poster": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg",
+     "tmdb": "movie/1571955",
+     "link": "https://www.netflix.com/title/82078375"
     }
    ]
   },
@@ -25,15 +31,21 @@
    "items": [
     {
      "title": "Apocalypse Z: New World",
-     "poster": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg"
+     "poster": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg",
+     "tmdb": "movie/1507696",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8a132dd0-3df2-4bab-93ab-4e64bd720a97"
     },
     {
-     "title": "Dexter: Resurrection",
-     "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg"
+     "title": "Ali G: Who Iz I?",
+     "poster": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+     "tmdb": "movie/1727734",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d4812037-f8af-43d5-be6d-d13a70e43095"
     },
     {
      "title": "Drive - The Pretenders",
-     "poster": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg"
+     "poster": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
+     "tmdb": "movie/1596275",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c383e8b7-5574-4893-a826-526aef1b2cda"
     }
    ]
   },
@@ -43,15 +55,21 @@
    "items": [
     {
      "title": "VisionQuest",
-     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
+     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+     "tmdb": "tv/213375",
+     "link": "https://www.hotstar.com/in/1271652473"
     },
     {
-     "title": "A Story of Derry",
-     "poster": "/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg"
+     "title": "MobLand",
+     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+     "tmdb": "tv/247718",
+     "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "Obsession",
-     "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg"
+     "title": "Toy Story 5",
+     "poster": "/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+     "tmdb": "movie/1084244",
+     "link": "https://www.hotstar.com/in/movies/toy-story-5/1271506603"
     }
    ]
   }

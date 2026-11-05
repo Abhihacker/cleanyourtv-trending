@@ -7,12 +7,17 @@ Usage: TMDB_TOKEN=... python3 build_trending.py <out.json>
 
 Output (what the TV reads):
   {"updated": "2026-10-29", "services": [{"name": "Netflix", "pkg": "com.netflix.ninja",
-     "items": [{"title": "Lupin", "poster": "/abc.jpg"}, ...]}, ...]}
+     "items": [{"title": "Lupin", "poster": "/abc.jpg", "tmdb": "tv/96677",
+                "link": "https://www.netflix.com/title/80994082"}, ...]}, ...]}
 Posters are fetched by the TV itself from https://image.tmdb.org/t/p/w185<poster>.
+"link" opens the title's page in the service's TV app. It comes from JustWatch, matched by TMDB ID and service,
+and only in the URL shape that app accepts; when JustWatch has none, the previous list's link for the same TMDB ID
+is kept. No link: the TV opens the app instead.
 """
 import datetime
 import json
 import os
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -21,6 +26,23 @@ from concurrent.futures import ThreadPoolExecutor
 SERVICES = [("Netflix", 8, "com.netflix.ninja"),
             ("Prime Video", 119, "com.amazon.amazonvideo.livingroom"),
             ("JioHotstar", 2336, "in.startv.hotstar")]
+
+# Per service: JustWatch package names that count, and the link shapes the TV app opens (checked on the TV),
+# rebuilt from the matched ID so nothing else from the response is passed through.
+LINKS = {
+    "Netflix": (lambda t: t.startswith("netflix"),
+                re.compile(r"^https://www\.netflix\.com/(?:[a-z]{2}(?:-[a-z]{2})?/)?title/(\d{5,12})\b"),
+                "https://www.netflix.com/title/{}"),
+    "Prime Video": (lambda t: t.startswith("amazonprime"),
+                    re.compile(r"^https://app\.primevideo\.com/detail\?gti=(amzn1\.dv\.gti\.[0-9a-f-]{36})\b"),
+                    "https://app.primevideo.com/detail?gti={}"),
+    "JioHotstar": (lambda t: "hotstar" in t,
+                   re.compile(r"^https://www\.hotstar\.com/in/((?:(?:shows|movies)/[a-z0-9-]{1,80}/)?\d{6,15})\b"),
+                   "https://www.hotstar.com/in/{}"),
+}
+JW_QUERY = """query S($q:String!){ popularTitles(country:IN, first:5, filter:{searchQuery:$q}){ edges{ node{
+ content(country:IN, language:"en"){ externalIds{ tmdbId } }
+ offers(country:IN, platform:WEB){ package{ technicalName } standardWebURL } } } } }"""
 PER_SERVICE = 3
 
 
@@ -44,6 +66,35 @@ def api(tok, path, **q):
         return json.load(r)
 
 
+def justwatch_link(service, title, tmdb_id):
+    """The service's title-page link from JustWatch, for the result whose TMDB ID matches; None if none."""
+    pkg_ok, shape, url = LINKS[service]
+    body = json.dumps({"query": JW_QUERY, "variables": {"q": title}}).encode()
+    req = urllib.request.Request("https://apis.justwatch.com/graphql", body,
+                                 {"Content-Type": "application/json", "User-Agent": "cleanyourtv-trending/1.0"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        edges = json.load(r)["data"]["popularTitles"]["edges"]
+    for e in edges:
+        n = e["node"]
+        if str(n["content"]["externalIds"].get("tmdbId")) != str(tmdb_id):
+            continue
+        for o in n["offers"]:
+            m = shape.match(o.get("standardWebURL") or "")
+            if pkg_ok(o["package"]["technicalName"]) and m:
+                return url.format(m.group(1))
+    return None
+
+
+def previous_links(path):
+    """TMDB key -> link from the list being replaced, so a JustWatch miss keeps yesterday's link."""
+    try:
+        with open(path) as f:
+            old = json.load(f)
+        return {i["tmdb"]: i["link"] for s in old["services"] for i in s["items"] if i.get("tmdb") and i.get("link")}
+    except Exception:
+        return {}
+
+
 def main():
     out = sys.argv[1]
     tok = token()
@@ -63,10 +114,29 @@ def main():
     services = []
     for name, pid, pkg in SERVICES:
         items = []
+        seen = set()                               # TMDB's trending pages can repeat a title
         for x, ps in checked:                      # trending order kept
-            if pid in ps and x.get("poster_path") and len(items) < PER_SERVICE:
-                items.append({"title": x.get("name") or x.get("title"), "poster": x["poster_path"]})
+            key = (x["media_type"], x["id"])
+            if pid in ps and x.get("poster_path") and len(items) < PER_SERVICE and key not in seen:
+                seen.add(key)
+                items.append({"title": x.get("name") or x.get("title"), "poster": x["poster_path"],
+                              "tmdb": f"{x['media_type']}/{x['id']}", "_id": x["id"]})
         services.append({"name": name, "pkg": pkg, "items": items})
+    before = previous_links(out)
+
+    def link(job):
+        name, it = job
+        try:
+            return justwatch_link(name, it["title"], it["_id"])
+        except Exception:
+            return None
+    jobs = [(s["name"], it) for s in services for it in s["items"]]
+    with ThreadPoolExecutor(4) as ex:
+        for (name, it), l in zip(jobs, ex.map(link, jobs)):
+            l = l or before.get(it["tmdb"])
+            if l and LINKS[name][1].match(l):
+                it["link"] = l
+            del it["_id"]
     data = {"updated": datetime.date.today().isoformat(), "services": services}
     if any(len(s["items"]) == 0 for s in services):
         sys.exit("a service came back empty; not writing (the TV keeps its last good list)")
@@ -74,6 +144,8 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=1)
     for s in services:
         print(s["name"], [i["title"] for i in s["items"]])
+    found = sum(1 for s in services for i in s["items"] if i.get("link"))
+    print(f"links: {found} of {sum(len(s['items']) for s in services)}")
 
 
 if __name__ == "__main__":
