@@ -12,7 +12,7 @@ Output (what the TV reads):
 Posters are fetched by the TV itself from https://image.tmdb.org/t/p/w185<poster>.
 "link" opens the title's page in the service's TV app. It comes from JustWatch, matched by TMDB ID and service,
 and only in the URL shape that app accepts; when JustWatch has none, the previous list's link for the same TMDB ID
-is kept. No link: the TV opens the app instead.
+is kept. links.json ({"tv/213375": "https://..."}, added by hand) wins over both. No link: the TV opens the app.
 """
 import datetime
 import json
@@ -36,8 +36,9 @@ LINKS = {
     "Prime Video": (lambda t: t.startswith("amazonprime"),
                     re.compile(r"^https://app\.primevideo\.com/detail\?gti=(amzn1\.dv\.gti\.[0-9a-f-]{36})\b"),
                     "https://app.primevideo.com/detail?gti={}"),
+    # Show and movie pages only: a bare https://www.hotstar.com/in/<id> is often an episode, and the app plays it.
     "JioHotstar": (lambda t: "hotstar" in t,
-                   re.compile(r"^https://www\.hotstar\.com/in/((?:(?:shows|movies)/[a-z0-9-]{1,80}/)?\d{6,15})\b"),
+                   re.compile(r"^https://www\.hotstar\.com/in/((?:shows|movies)/[a-z0-9-]{1,80}/\d{6,15})\b"),
                    "https://www.hotstar.com/in/{}"),
 }
 JW_QUERY = """query S($q:String!){ popularTitles(country:IN, first:5, filter:{searchQuery:$q}){ edges{ node{
@@ -95,6 +96,15 @@ def previous_links(path):
         return {}
 
 
+def manual_links():
+    """links.json next to this script: title links added by hand, keyed like the list's "tmdb"."""
+    try:
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "links.json")) as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+
 def main():
     out = sys.argv[1]
     tok = token()
@@ -123,6 +133,7 @@ def main():
                               "tmdb": f"{x['media_type']}/{x['id']}", "_id": x["id"]})
         services.append({"name": name, "pkg": pkg, "items": items})
     before = previous_links(out)
+    manual = manual_links()
 
     def link(job):
         name, it = job
@@ -133,9 +144,10 @@ def main():
     jobs = [(s["name"], it) for s in services for it in s["items"]]
     with ThreadPoolExecutor(4) as ex:
         for (name, it), l in zip(jobs, ex.map(link, jobs)):
-            l = l or before.get(it["tmdb"])
-            if l and LINKS[name][1].match(l):
-                it["link"] = l
+            for l in (manual.get(it["tmdb"]), l, before.get(it["tmdb"])):
+                if l and LINKS[name][1].match(l):
+                    it["link"] = l
+                    break
             del it["_id"]
     data = {"updated": datetime.date.today().isoformat(), "services": services}
     if any(len(s["items"]) == 0 for s in services):
