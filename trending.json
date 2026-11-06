@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
-     "title": "Dead-End Job",
-     "poster": "/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg",
-     "tmdb": "tv/289517",
-     "link": "https://www.netflix.com/title/81997887"
+     "title": "Black Doves",
+     "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
+     "tmdb": "tv/225385",
+     "link": "https://www.netflix.com/title/81682935"
     },
     {
      "title": "Lupin",
@@ -18,10 +18,10 @@
      "link": "https://www.netflix.com/title/80994082"
     },
     {
-     "title": "Collision Course",
-     "poster": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg",
-     "tmdb": "movie/1571955",
-     "link": "https://www.netflix.com/title/82078375"
+     "title": "Dead-End Job",
+     "poster": "/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg",
+     "tmdb": "tv/289517",
+     "link": "https://www.netflix.com/title/81997887"
     }
    ]
   },
@@ -30,22 +30,22 @@
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
     {
+     "title": "The Mongoose",
+     "poster": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+     "tmdb": "movie/1294189",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2cae12ae-111f-4b19-b270-d12f7d2c573c"
+    },
+    {
      "title": "Apocalypse Z: New World",
      "poster": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg",
      "tmdb": "movie/1507696",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8a132dd0-3df2-4bab-93ab-4e64bd720a97"
     },
     {
-     "title": "Dexter: Resurrection",
-     "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
-     "tmdb": "tv/259909",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
-    },
-    {
-     "title": "The Mongoose",
-     "poster": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-     "tmdb": "movie/1294189",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2cae12ae-111f-4b19-b270-d12f7d2c573c"
+     "title": "The Greatest",
+     "poster": "/hu4jco5AOs8NSIctuc9KsRyuSg8.jpg",
+     "tmdb": "tv/258989",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1b205f37-c274-49ee-bf7a-d5b1322663e5"
     }
    ]
   },
@@ -60,15 +60,15 @@
      "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
     },
     {
-     "title": "The Gilded Age",
-     "poster": "/tdsuFe0JVLqjxfptElRA9YFJcUE.jpg",
-     "tmdb": "tv/81723"
-    },
-    {
      "title": "MobLand",
      "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
      "tmdb": "tv/247718",
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
+    },
+    {
+     "title": "Tulsa King",
+     "poster": "/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg",
+     "tmdb": "tv/153312"
     }
    ]
   }
