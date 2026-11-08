@@ -1,10 +1,16 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
+    {
+     "title": "Possible Love",
+     "poster": "/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
+     "tmdb": "movie/1483525",
+     "link": "https://www.netflix.com/title/82106490"
+    },
     {
      "title": "Black Doves",
      "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
@@ -16,12 +22,6 @@
      "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
      "tmdb": "tv/96677",
      "link": "https://www.netflix.com/title/80994082"
-    },
-    {
-     "title": "Dead-End Job",
-     "poster": "/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg",
-     "tmdb": "tv/289517",
-     "link": "https://www.netflix.com/title/81997887"
     }
    ]
   },
@@ -43,7 +43,7 @@
     },
     {
      "title": "Campus Drivers",
-     "poster": "/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
+     "poster": "/br6TrAPctmobu6QM730sBEC18eH.jpg",
      "tmdb": "tv/303044",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1161e29b-ac7f-4694-bd26-5719013f1f94"
     }
@@ -54,16 +54,16 @@
    "pkg": "in.startv.hotstar",
    "items": [
     {
-     "title": "MobLand",
-     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
-     "tmdb": "tv/247718",
-     "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
-    },
-    {
      "title": "VisionQuest",
      "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
      "tmdb": "tv/213375",
      "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
+    },
+    {
+     "title": "MobLand",
+     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+     "tmdb": "tv/247718",
+     "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
      "title": "Tulsa King",
