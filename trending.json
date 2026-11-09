@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
-     "title": "Possible Love",
-     "poster": "/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
-     "tmdb": "movie/1483525",
-     "link": "https://www.netflix.com/title/82106490"
-    },
-    {
      "title": "Black Doves",
      "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
      "tmdb": "tv/225385",
      "link": "https://www.netflix.com/title/81682935"
+    },
+    {
+     "title": "Possible Love",
+     "poster": "/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
+     "tmdb": "movie/1483525",
+     "link": "https://www.netflix.com/title/82106490"
     },
     {
      "title": "Lupin",
@@ -42,10 +42,10 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
     },
     {
-     "title": "Campus Drivers",
-     "poster": "/br6TrAPctmobu6QM730sBEC18eH.jpg",
-     "tmdb": "tv/303044",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1161e29b-ac7f-4694-bd26-5719013f1f94"
+     "title": "Apocalypse Z: New World",
+     "poster": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg",
+     "tmdb": "movie/1507696",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8a132dd0-3df2-4bab-93ab-4e64bd720a97"
     }
    ]
   },
@@ -66,9 +66,10 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "Tulsa King",
-     "poster": "/y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg",
-     "tmdb": "tv/153312"
+     "title": "A Story of Derry",
+     "poster": "/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
+     "tmdb": "movie/1813355",
+     "link": "https://www.hotstar.com/in/movies/a-story-of-derry/1271720407"
     }
    ]
   }
