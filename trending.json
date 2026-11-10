@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "services": [
   {
    "name": "Netflix",
@@ -18,10 +18,10 @@
      "link": "https://www.netflix.com/title/82106490"
     },
     {
-     "title": "Lupin",
-     "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
-     "tmdb": "tv/96677",
-     "link": "https://www.netflix.com/title/80994082"
+     "title": "A Dog's Perfect Christmas",
+     "poster": "/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
+     "tmdb": "movie/1570488",
+     "link": "https://www.netflix.com/title/82090597"
     }
    ]
   },
@@ -42,10 +42,10 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
     },
     {
-     "title": "Apocalypse Z: New World",
-     "poster": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg",
-     "tmdb": "movie/1507696",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8a132dd0-3df2-4bab-93ab-4e64bd720a97"
+     "title": "Campus Drivers",
+     "poster": "/1vqJ8kNCz91C2fUpXSma7oAWCc5.jpg",
+     "tmdb": "tv/303044",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1161e29b-ac7f-4694-bd26-5719013f1f94"
     }
    ]
   },
@@ -66,10 +66,10 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "A Story of Derry",
-     "poster": "/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
-     "tmdb": "movie/1813355",
-     "link": "https://www.hotstar.com/in/movies/a-story-of-derry/1271720407"
+     "title": "Obsession",
+     "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+     "tmdb": "movie/1339713",
+     "link": "https://www.hotstar.com/in/movies/obsession/1271707974"
     }
    ]
   }
