@@ -1,16 +1,10 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
-    {
-     "title": "Black Doves",
-     "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
-     "tmdb": "tv/225385",
-     "link": "https://www.netflix.com/title/81682935"
-    },
     {
      "title": "Possible Love",
      "poster": "/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
@@ -18,10 +12,16 @@
      "link": "https://www.netflix.com/title/82106490"
     },
     {
-     "title": "A Dog's Perfect Christmas",
-     "poster": "/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
-     "tmdb": "movie/1570488",
-     "link": "https://www.netflix.com/title/82090597"
+     "title": "Black Doves",
+     "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
+     "tmdb": "tv/225385",
+     "link": "https://www.netflix.com/title/81682935"
+    },
+    {
+     "title": "Dead-End Job",
+     "poster": "/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg",
+     "tmdb": "tv/289517",
+     "link": "https://www.netflix.com/title/81997887"
     }
    ]
   },
@@ -42,10 +42,10 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
     },
     {
-     "title": "Campus Drivers",
-     "poster": "/1vqJ8kNCz91C2fUpXSma7oAWCc5.jpg",
-     "tmdb": "tv/303044",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1161e29b-ac7f-4694-bd26-5719013f1f94"
+     "title": "The Greatest",
+     "poster": "/hu4jco5AOs8NSIctuc9KsRyuSg8.jpg",
+     "tmdb": "tv/258989",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1b205f37-c274-49ee-bf7a-d5b1322663e5"
     }
    ]
   },
@@ -66,10 +66,9 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "Obsession",
-     "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-     "tmdb": "movie/1339713",
-     "link": "https://www.hotstar.com/in/movies/obsession/1271707974"
+     "title": "Lanterns",
+     "poster": "/rb94rKVIzLyfWufIN7WqLvadBDH.jpg",
+     "tmdb": "tv/95350"
     }
    ]
   }
