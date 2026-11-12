@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "services": [
   {
    "name": "Netflix",
@@ -12,10 +12,10 @@
      "link": "https://www.netflix.com/title/82106490"
     },
     {
-     "title": "Black Doves",
-     "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
-     "tmdb": "tv/225385",
-     "link": "https://www.netflix.com/title/81682935"
+     "title": "Lupin",
+     "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+     "tmdb": "tv/96677",
+     "link": "https://www.netflix.com/title/80994082"
     },
     {
      "title": "Dead-End Job",
@@ -30,22 +30,22 @@
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
     {
+     "title": "The Lord of the Rings: The Rings of Power",
+     "poster": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+     "tmdb": "tv/84773",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
+    },
+    {
      "title": "The Mongoose",
      "poster": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
      "tmdb": "movie/1294189",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2cae12ae-111f-4b19-b270-d12f7d2c573c"
     },
     {
-     "title": "Dexter: Resurrection",
-     "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
-     "tmdb": "tv/259909",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
-    },
-    {
-     "title": "The Greatest",
-     "poster": "/hu4jco5AOs8NSIctuc9KsRyuSg8.jpg",
-     "tmdb": "tv/258989",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1b205f37-c274-49ee-bf7a-d5b1322663e5"
+     "title": "Love in Disguise",
+     "poster": "/c9DEtqCDZBPL9i06WmbDrcndrBy.jpg",
+     "tmdb": "tv/303745",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ee41d01-5ae4-49f5-a3cd-457b75f3a63b"
     }
    ]
   },
@@ -54,21 +54,21 @@
    "pkg": "in.startv.hotstar",
    "items": [
     {
-     "title": "VisionQuest",
-     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
-     "tmdb": "tv/213375",
-     "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
-    },
-    {
      "title": "MobLand",
      "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
      "tmdb": "tv/247718",
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "Lanterns",
-     "poster": "/rb94rKVIzLyfWufIN7WqLvadBDH.jpg",
-     "tmdb": "tv/95350"
+     "title": "VisionQuest",
+     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+     "tmdb": "tv/213375",
+     "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
+    },
+    {
+     "title": "Rivals",
+     "poster": "/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
+     "tmdb": "tv/208921"
     }
    ]
   }
