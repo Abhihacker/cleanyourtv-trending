@@ -1,10 +1,16 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
+    {
+     "title": "The Empress",
+     "poster": "/9AWkNkZHwNLuM6H5u6dToioHMAI.jpg",
+     "tmdb": "tv/131488",
+     "link": "https://www.netflix.com/title/81222923"
+    },
     {
      "title": "Possible Love",
      "poster": "/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
@@ -12,16 +18,10 @@
      "link": "https://www.netflix.com/title/82106490"
     },
     {
-     "title": "Lupin",
-     "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
-     "tmdb": "tv/96677",
-     "link": "https://www.netflix.com/title/80994082"
-    },
-    {
-     "title": "Dead-End Job",
-     "poster": "/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg",
-     "tmdb": "tv/289517",
-     "link": "https://www.netflix.com/title/81997887"
+     "title": "The Body",
+     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+     "tmdb": "tv/291507",
+     "link": "https://www.netflix.com/title/81983578"
     }
    ]
   },
@@ -36,16 +36,16 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
     },
     {
+     "title": "Campus Drivers",
+     "poster": "/aa1mDCaRtGNEIHVpZrh2xil03Tq.jpg",
+     "tmdb": "tv/303044",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1161e29b-ac7f-4694-bd26-5719013f1f94"
+    },
+    {
      "title": "The Mongoose",
      "poster": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
      "tmdb": "movie/1294189",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2cae12ae-111f-4b19-b270-d12f7d2c573c"
-    },
-    {
-     "title": "Love in Disguise",
-     "poster": "/c9DEtqCDZBPL9i06WmbDrcndrBy.jpg",
-     "tmdb": "tv/303745",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ee41d01-5ae4-49f5-a3cd-457b75f3a63b"
     }
    ]
   },
@@ -54,21 +54,22 @@
    "pkg": "in.startv.hotstar",
    "items": [
     {
-     "title": "MobLand",
-     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
-     "tmdb": "tv/247718",
-     "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
-    },
-    {
      "title": "VisionQuest",
      "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
      "tmdb": "tv/213375",
      "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
     },
     {
-     "title": "Rivals",
-     "poster": "/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
-     "tmdb": "tv/208921"
+     "title": "MobLand",
+     "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+     "tmdb": "tv/247718",
+     "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
+    },
+    {
+     "title": "Obsession",
+     "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+     "tmdb": "movie/1339713",
+     "link": "https://www.hotstar.com/in/movies/obsession/1271707974"
     }
    ]
   }
