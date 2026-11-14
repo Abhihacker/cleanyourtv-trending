@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
-     "title": "The Empress",
-     "poster": "/9AWkNkZHwNLuM6H5u6dToioHMAI.jpg",
-     "tmdb": "tv/131488",
-     "link": "https://www.netflix.com/title/81222923"
-    },
-    {
-     "title": "Possible Love",
-     "poster": "/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
-     "tmdb": "movie/1483525",
-     "link": "https://www.netflix.com/title/82106490"
+     "title": "Never Surrender",
+     "poster": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
+     "tmdb": "movie/1616687",
+     "link": "https://www.netflix.com/title/81996126"
     },
     {
      "title": "The Body",
      "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
      "tmdb": "tv/291507",
      "link": "https://www.netflix.com/title/81983578"
+    },
+    {
+     "title": "Black Doves",
+     "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
+     "tmdb": "tv/225385",
+     "link": "https://www.netflix.com/title/81682935"
     }
    ]
   },
@@ -36,16 +36,16 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
     },
     {
+     "title": "Dexter: Resurrection",
+     "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+     "tmdb": "tv/259909",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
+    },
+    {
      "title": "Campus Drivers",
      "poster": "/aa1mDCaRtGNEIHVpZrh2xil03Tq.jpg",
      "tmdb": "tv/303044",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1161e29b-ac7f-4694-bd26-5719013f1f94"
-    },
-    {
-     "title": "The Mongoose",
-     "poster": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-     "tmdb": "movie/1294189",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2cae12ae-111f-4b19-b270-d12f7d2c573c"
     }
    ]
   },
@@ -66,10 +66,9 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "Obsession",
-     "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-     "tmdb": "movie/1339713",
-     "link": "https://www.hotstar.com/in/movies/obsession/1271707974"
+     "title": "Tulsa King",
+     "poster": "/y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg",
+     "tmdb": "tv/153312"
     }
    ]
   }
