@@ -1,10 +1,16 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
+    {
+     "title": "The Body",
+     "poster": "/u2iDoQmXu86tMhMZSN1EPp0PHKQ.jpg",
+     "tmdb": "tv/291507",
+     "link": "https://www.netflix.com/title/81983578"
+    },
     {
      "title": "Never Surrender",
      "poster": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
@@ -12,16 +18,10 @@
      "link": "https://www.netflix.com/title/81996126"
     },
     {
-     "title": "The Body",
-     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-     "tmdb": "tv/291507",
-     "link": "https://www.netflix.com/title/81983578"
-    },
-    {
-     "title": "Black Doves",
-     "poster": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
-     "tmdb": "tv/225385",
-     "link": "https://www.netflix.com/title/81682935"
+     "title": "Possible Love",
+     "poster": "/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
+     "tmdb": "movie/1483525",
+     "link": "https://www.netflix.com/title/82106490"
     }
    ]
   },
@@ -43,7 +43,7 @@
     },
     {
      "title": "Campus Drivers",
-     "poster": "/aa1mDCaRtGNEIHVpZrh2xil03Tq.jpg",
+     "poster": "/kTgV6VLp70QOBpCZqvEuTWAA4Ng.jpg",
      "tmdb": "tv/303044",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1161e29b-ac7f-4694-bd26-5719013f1f94"
     }
