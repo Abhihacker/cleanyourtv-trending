@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "services": [
   {
    "name": "Netflix",
@@ -12,16 +12,16 @@
      "link": "https://www.netflix.com/title/81983578"
     },
     {
-     "title": "Never Surrender",
-     "poster": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
-     "tmdb": "movie/1616687",
-     "link": "https://www.netflix.com/title/81996126"
-    },
-    {
      "title": "The Chosen",
      "poster": "/nr0r7YTn1l84KLG1iCSO5ofHTvO.jpg",
      "tmdb": "tv/85077",
      "link": "https://www.netflix.com/title/81622757"
+    },
+    {
+     "title": "Allen",
+     "poster": "/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+     "tmdb": "movie/1518204",
+     "link": "https://www.netflix.com/title/81382720"
     }
    ]
   },
@@ -42,10 +42,10 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2cae12ae-111f-4b19-b270-d12f7d2c573c"
     },
     {
-     "title": "Project Hail Mary",
-     "poster": "/iOb2fjXLbpJgyQXe46n1WtGCnaa.jpg",
-     "tmdb": "movie/687163",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.414eb1af-ee27-476c-bc46-bedd48595f59"
+     "title": "Love in Disguise",
+     "poster": "/c9DEtqCDZBPL9i06WmbDrcndrBy.jpg",
+     "tmdb": "tv/303745",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ee41d01-5ae4-49f5-a3cd-457b75f3a63b"
     }
    ]
   },
