@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "services": [
   {
    "name": "Netflix",
@@ -7,21 +7,21 @@
    "items": [
     {
      "title": "The Body",
-     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+     "poster": "/zleCYDRbW5mKwgZwVK4SNIrKXWx.jpg",
      "tmdb": "tv/291507",
      "link": "https://www.netflix.com/title/81983578"
-    },
-    {
-     "title": "The Chosen",
-     "poster": "/nr0r7YTn1l84KLG1iCSO5ofHTvO.jpg",
-     "tmdb": "tv/85077",
-     "link": "https://www.netflix.com/title/81622757"
     },
     {
      "title": "Never Surrender",
      "poster": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
      "tmdb": "movie/1616687",
      "link": "https://www.netflix.com/title/81996126"
+    },
+    {
+     "title": "The Chosen",
+     "poster": "/nr0r7YTn1l84KLG1iCSO5ofHTvO.jpg",
+     "tmdb": "tv/85077",
+     "link": "https://www.netflix.com/title/81622757"
     }
    ]
   },
@@ -36,16 +36,16 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
     },
     {
+     "title": "Madden",
+     "poster": "/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+     "tmdb": "movie/1131943",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.084449d5-219e-4b76-b45d-5eeae15bcb93"
+    },
+    {
      "title": "Dexter: Resurrection",
      "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
      "tmdb": "tv/259909",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
-    },
-    {
-     "title": "Love in Disguise",
-     "poster": "/c9DEtqCDZBPL9i06WmbDrcndrBy.jpg",
-     "tmdb": "tv/303745",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ee41d01-5ae4-49f5-a3cd-457b75f3a63b"
     }
    ]
   },
@@ -60,15 +60,15 @@
      "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
     },
     {
+     "title": "Tulsa King",
+     "poster": "/y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg",
+     "tmdb": "tv/153312"
+    },
+    {
      "title": "MobLand",
      "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
      "tmdb": "tv/247718",
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
-    },
-    {
-     "title": "Rivals",
-     "poster": "/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
-     "tmdb": "tv/208921"
     }
    ]
   }
