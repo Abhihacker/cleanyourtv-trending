@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
-     "title": "The Body",
-     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-     "tmdb": "tv/291507",
-     "link": "https://www.netflix.com/title/81983578"
-    },
-    {
      "title": "Guarding Stars",
-     "poster": "/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+     "poster": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
      "tmdb": "movie/1551025",
      "link": "https://www.netflix.com/title/81749470"
     },
     {
-     "title": "The Altruists",
-     "poster": "/hiX70sXdvEPVE11QqmLuaX16gdh.jpg",
-     "tmdb": "tv/308007",
-     "link": "https://www.netflix.com/title/81681910"
+     "title": "The Blue Road",
+     "poster": "/cVbilrgtgKi7gN74KK4voyV7iDR.jpg",
+     "tmdb": "tv/300523",
+     "link": "https://www.netflix.com/title/81941626"
+    },
+    {
+     "title": "The Body",
+     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+     "tmdb": "tv/291507",
+     "link": "https://www.netflix.com/title/81983578"
     }
    ]
   },
@@ -29,6 +29,12 @@
    "name": "Prime Video",
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
+    {
+     "title": "Madden",
+     "poster": "/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+     "tmdb": "movie/1131943",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.084449d5-219e-4b76-b45d-5eeae15bcb93"
+    },
     {
      "title": "Dexter: Resurrection",
      "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
@@ -40,12 +46,6 @@
      "poster": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
      "tmdb": "tv/84773",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
-    },
-    {
-     "title": "Last Meal",
-     "poster": "/kdz0fHndmpFKb0iwJvauyPHRAh7.jpg",
-     "tmdb": "movie/1561834",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d710d38d-7c29-44dc-a65e-3359396e3bf0"
     }
    ]
   },
@@ -54,21 +54,21 @@
    "pkg": "in.startv.hotstar",
    "items": [
     {
-     "title": "VisionQuest",
-     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
-     "tmdb": "tv/213375",
-     "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
-    },
-    {
      "title": "MobLand",
      "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
      "tmdb": "tv/247718",
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "Tulsa King",
-     "poster": "/y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg",
-     "tmdb": "tv/153312"
+     "title": "VisionQuest",
+     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+     "tmdb": "tv/213375",
+     "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
+    },
+    {
+     "title": "Yellowjackets",
+     "poster": "/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
+     "tmdb": "tv/117488"
     }
    ]
   }
