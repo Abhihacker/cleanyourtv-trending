@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
-     "title": "Guarding Stars",
-     "poster": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
-     "tmdb": "movie/1551025",
-     "link": "https://www.netflix.com/title/81749470"
-    },
-    {
-     "title": "The Blue Road",
-     "poster": "/cVbilrgtgKi7gN74KK4voyV7iDR.jpg",
-     "tmdb": "tv/300523",
-     "link": "https://www.netflix.com/title/81941626"
-    },
-    {
      "title": "The Body",
      "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
      "tmdb": "tv/291507",
      "link": "https://www.netflix.com/title/81983578"
+    },
+    {
+     "title": "Steps",
+     "poster": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
+     "tmdb": "movie/1595124",
+     "link": "https://www.netflix.com/title/81212809"
+    },
+    {
+     "title": "Guarding Stars",
+     "poster": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
+     "tmdb": "movie/1551025",
+     "link": "https://www.netflix.com/title/81749470"
     }
    ]
   },
@@ -29,6 +29,12 @@
    "name": "Prime Video",
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
+    {
+     "title": "The Lord of the Rings: The Rings of Power",
+     "poster": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+     "tmdb": "tv/84773",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
+    },
     {
      "title": "Madden",
      "poster": "/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
@@ -40,12 +46,6 @@
      "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
      "tmdb": "tv/259909",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
-    },
-    {
-     "title": "The Lord of the Rings: The Rings of Power",
-     "poster": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
-     "tmdb": "tv/84773",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
     }
    ]
   },
@@ -66,9 +66,9 @@
      "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
     },
     {
-     "title": "Yellowjackets",
-     "poster": "/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-     "tmdb": "tv/117488"
+     "title": "Percy Jackson and the Olympians",
+     "poster": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
+     "tmdb": "tv/103540"
     }
    ]
   }
