@@ -1,16 +1,10 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
-    {
-     "title": "The Body",
-     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-     "tmdb": "tv/291507",
-     "link": "https://www.netflix.com/title/81983578"
-    },
     {
      "title": "Steps",
      "poster": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
@@ -22,6 +16,12 @@
      "poster": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
      "tmdb": "movie/1551025",
      "link": "https://www.netflix.com/title/81749470"
+    },
+    {
+     "title": "The Blue Road",
+     "poster": "/cVbilrgtgKi7gN74KK4voyV7iDR.jpg",
+     "tmdb": "tv/300523",
+     "link": "https://www.netflix.com/title/81941626"
     }
    ]
   },
@@ -60,15 +60,14 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "VisionQuest",
-     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
-     "tmdb": "tv/213375",
-     "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
-    },
-    {
      "title": "Percy Jackson and the Olympians",
      "poster": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
      "tmdb": "tv/103540"
+    },
+    {
+     "title": "Yellowjackets",
+     "poster": "/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
+     "tmdb": "tv/117488"
     }
    ]
   }
