@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
-     "title": "Steps",
-     "poster": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
-     "tmdb": "movie/1595124",
-     "link": "https://www.netflix.com/title/81212809"
-    },
-    {
      "title": "Guarding Stars",
      "poster": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
      "tmdb": "movie/1551025",
      "link": "https://www.netflix.com/title/81749470"
+    },
+    {
+     "title": "Steps",
+     "poster": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
+     "tmdb": "movie/1595124",
+     "link": "https://www.netflix.com/title/81212809"
     },
     {
      "title": "The Blue Road",
@@ -36,16 +36,16 @@
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
     },
     {
+     "title": "Clashing Through the Snow",
+     "poster": "/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
+     "tmdb": "movie/1611767",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f938552e-f9a5-4c9c-9354-51c439c0eec6"
+    },
+    {
      "title": "Madden",
      "poster": "/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
      "tmdb": "movie/1131943",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.084449d5-219e-4b76-b45d-5eeae15bcb93"
-    },
-    {
-     "title": "Dexter: Resurrection",
-     "poster": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
-     "tmdb": "tv/259909",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8500885e-a8bf-420a-bb55-eb33708aacee"
     }
    ]
   },
@@ -60,14 +60,15 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
+     "title": "VisionQuest",
+     "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+     "tmdb": "tv/213375",
+     "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
+    },
+    {
      "title": "Percy Jackson and the Olympians",
      "poster": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
      "tmdb": "tv/103540"
-    },
-    {
-     "title": "Yellowjackets",
-     "poster": "/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-     "tmdb": "tv/117488"
     }
    ]
   }
