@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
-     "title": "Guarding Stars",
-     "poster": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
-     "tmdb": "movie/1551025",
-     "link": "https://www.netflix.com/title/81749470"
-    },
-    {
      "title": "Steps",
      "poster": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
      "tmdb": "movie/1595124",
      "link": "https://www.netflix.com/title/81212809"
+    },
+    {
+     "title": "The Body",
+     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+     "tmdb": "tv/291507",
+     "link": "https://www.netflix.com/title/81983578"
     },
     {
      "title": "The Blue Road",
@@ -30,16 +30,16 @@
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
     {
-     "title": "The Lord of the Rings: The Rings of Power",
-     "poster": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
-     "tmdb": "tv/84773",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
-    },
-    {
      "title": "Clashing Through the Snow",
      "poster": "/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
      "tmdb": "movie/1611767",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f938552e-f9a5-4c9c-9354-51c439c0eec6"
+    },
+    {
+     "title": "The Lord of the Rings: The Rings of Power",
+     "poster": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+     "tmdb": "tv/84773",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
     },
     {
      "title": "Madden",
@@ -60,15 +60,15 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
+     "title": "Percy Jackson and the Olympians",
+     "poster": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
+     "tmdb": "tv/103540"
+    },
+    {
      "title": "VisionQuest",
      "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
      "tmdb": "tv/213375",
      "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
-    },
-    {
-     "title": "Percy Jackson and the Olympians",
-     "poster": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
-     "tmdb": "tv/103540"
     }
    ]
   }
