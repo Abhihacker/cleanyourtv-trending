@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "services": [
   {
    "name": "Netflix",
    "pkg": "com.netflix.ninja",
    "items": [
     {
+     "title": "The Mosquito Bowl",
+     "poster": "/uxYs0bNTF4XzM8LThJk2x3AJ0Iv.jpg",
+     "tmdb": "movie/1458300",
+     "link": "https://www.netflix.com/title/81661161"
+    },
+    {
+     "title": "Spider-Man: Brand New Day",
+     "poster": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+     "tmdb": "movie/969681",
+     "link": "https://www.netflix.com/title/82647423"
+    },
+    {
      "title": "Steps",
      "poster": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
      "tmdb": "movie/1595124",
      "link": "https://www.netflix.com/title/81212809"
-    },
-    {
-     "title": "The Body",
-     "poster": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-     "tmdb": "tv/291507",
-     "link": "https://www.netflix.com/title/81983578"
-    },
-    {
-     "title": "The Blue Road",
-     "poster": "/cVbilrgtgKi7gN74KK4voyV7iDR.jpg",
-     "tmdb": "tv/300523",
-     "link": "https://www.netflix.com/title/81941626"
     }
    ]
   },
@@ -30,22 +30,22 @@
    "pkg": "com.amazon.amazonvideo.livingroom",
    "items": [
     {
-     "title": "Clashing Through the Snow",
-     "poster": "/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
-     "tmdb": "movie/1611767",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f938552e-f9a5-4c9c-9354-51c439c0eec6"
-    },
-    {
      "title": "The Lord of the Rings: The Rings of Power",
      "poster": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
      "tmdb": "tv/84773",
      "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.eedf35c9-fa32-4c9f-8516-bfa78ab759de"
     },
     {
-     "title": "Madden",
-     "poster": "/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
-     "tmdb": "movie/1131943",
-     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.084449d5-219e-4b76-b45d-5eeae15bcb93"
+     "title": "Blade Runner 2099",
+     "poster": "/d8IKBDXQvj3d6clsjqydT4xcw14.jpg",
+     "tmdb": "tv/171802",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0e966bc5-aa69-4ee8-a6e1-ee97f3c1dc5c"
+    },
+    {
+     "title": "Clashing Through the Snow",
+     "poster": "/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
+     "tmdb": "movie/1611767",
+     "link": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f938552e-f9a5-4c9c-9354-51c439c0eec6"
     }
    ]
   },
@@ -60,15 +60,15 @@
      "link": "https://www.hotstar.com/in/shows/mobland/1271397631"
     },
     {
-     "title": "Percy Jackson and the Olympians",
-     "poster": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
-     "tmdb": "tv/103540"
-    },
-    {
      "title": "VisionQuest",
      "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
      "tmdb": "tv/213375",
      "link": "https://www.hotstar.com/in/shows/visionquest/1271652472"
+    },
+    {
+     "title": "Yellowjackets",
+     "poster": "/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
+     "tmdb": "tv/117488"
     }
    ]
   }
